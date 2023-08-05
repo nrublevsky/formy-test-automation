@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class ScrollToElement {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "C:/Nick Stuff/Work/Selenium stuff/chromedriver/chromedriver.exe");
 
@@ -20,6 +20,8 @@ public class ScrollToElement {
 
         WebElement date = driver.findElement(By.id("date"));
         date.sendKeys("05.05.2023");
+
+        Thread.sleep(3000);
 
         driver.quit();
     }

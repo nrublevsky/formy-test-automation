@@ -11,7 +11,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ScrollToElement" target="1.5" />
-      <module name="SwitchToAlert" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
